@@ -40,6 +40,7 @@ return [
         ],
 
         'mysql' => [
+            'sticky' => true,
             'driver' => 'mysql',
             'host' => env('DB_HOST', '52.77.244.189'),
             'port' => env('DB_PORT', '3306'),
